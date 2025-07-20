@@ -8,6 +8,8 @@ def response(user_word):
         return "I’m not sure how to respond to that."
     
 def main():
+    print("Chatbot: Hello! I am a simple chatbot. Type something to start talking (or type 'exit' to quit).")
+    
     user_input=input("You: ")
     user_input=user_input.lower()
     output=" "
