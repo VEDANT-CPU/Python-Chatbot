@@ -1,4 +1,5 @@
 # Python-Chatbot
+Author: Vedant Pawar
 Overview
 This project focuses on building a basic text chatbot—one that runs in the terminal and does not use AI or machine learning. Instead, it utilizes rule-based logic to recognize specific keywords in user input and generate predefined responses.
 
