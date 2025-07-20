@@ -9,6 +9,7 @@ def response(user_word):
     
 def main():
     user_input=input("You: ")
+    user_input=user_input.lower()
     output=" "
     while user_input != "exit":
         output=response(user_input)
@@ -17,6 +18,7 @@ def main():
             #print(output)
             return
         user_input=input("You: ")
+        user_input=user_input.lower()
     return
 
 main()
